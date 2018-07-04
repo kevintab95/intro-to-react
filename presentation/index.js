@@ -180,7 +180,7 @@ export default class Presentation extends React.Component {
                 );</span><br />
                 <br />
                 <span>ReactDOM.render(<br/></span>
-                <span>&nbsp;&nbsp;element<br/></span>
+                <span>&nbsp;&nbsp;element,<br/></span>
                 <span>&nbsp;&nbsp;document.getElementById('root')<br/></span>
                 <span>);<br/></span>
               </pre>
@@ -203,7 +203,7 @@ export default class Presentation extends React.Component {
                 );</span><br />
                 <br />
                 <span>ReactDOM.render(<br/></span>
-                <span>&nbsp;&nbsp;element<br/></span>
+                <span>&nbsp;&nbsp;element,<br/></span>
                 <span>&nbsp;&nbsp;document.getElementById('root')<br/></span>
                 <span>);<br/></span>
               </pre>
@@ -313,7 +313,7 @@ export default class Presentation extends React.Component {
                   );</span><br />
                   <br />
                   <span>ReactDOM.render(<br/></span>
-                  <span>&nbsp;&nbsp;element<br/></span>
+                  <span>&nbsp;&nbsp;element,<br/></span>
                   <span>&nbsp;&nbsp;document.getElementById('root')<br/></span>
                   <span>);<br/></span>
                 </pre>
@@ -345,7 +345,7 @@ export default class Presentation extends React.Component {
                   );</span><br />
                   <br />
                   <span>ReactDOM.render(<br/></span>
-                  <span>&nbsp;&nbsp;element<br/></span>
+                  <span>&nbsp;&nbsp;element,<br/></span>
                   <span>&nbsp;&nbsp;document.getElementById('root')<br/></span>
                   <span>);<br/></span>
                 </pre>
@@ -387,7 +387,7 @@ export default class Presentation extends React.Component {
                   <span>var element = &lt;Welcome name="lakshmi" /&gt; <br /></span>
                   <br />
                   <span>ReactDOM.render(<br/></span>
-                  <span>&nbsp;&nbsp;element<br/></span>
+                  <span>&nbsp;&nbsp;element,<br/></span>
                   <span>&nbsp;&nbsp;document.getElementById('root')<br/></span>
                   <span>);<br/></span>
                 </pre>
