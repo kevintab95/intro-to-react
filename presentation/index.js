@@ -582,7 +582,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <Text textSize={70}>
-            <Link target="_blank" className="blue" href="http://localhost:3000/">a reactive cow</Link>
+            <Link target="_blank" className="blue" href="https://reactive-cow.herokuapp.com/">a reactive cow</Link>
           </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="primary">
