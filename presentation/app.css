@@ -1,0 +1,82 @@
+.App-logo {
+  height: 250px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-logo.logo {
+  left: 50px;
+}
+
+.logo > .App-logo {
+  margin-left: 100px;
+}
+
+.react-heading {
+  margin: 0.67em 0 !important;
+  left: -120px;
+}
+
+.react-fit-heading {
+  margin-left: -45px;
+}
+
+.code {
+  text-align: left;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: #03A9FC;
+}
+
+.green {
+  color: green;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.action-button {
+  background-color: black;
+  padding: 10px 80px 10px 80px;
+  margin: 10px;
+}
+
+.outline-only {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #03A9FC;
+}
+
+a:hover {
+  text-decoration: none;
+  animation: blink infinite 1.5s;
+}
+
+.language-jsx {
+  font-size: 4em;
+}
+
+@keyframes blink {
+    0% {color: #03A9FC;}
+    25% {color: black;}
+    50% {color: #03A9FC;}
+    75% {color: black;}
+    100% {color: #03A9FC;}
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

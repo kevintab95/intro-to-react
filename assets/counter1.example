@@ -1,0 +1,20 @@
+class Counter extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+    	count: 0
+    }
+    this.subtractCount = this.subtractCount.bind(this);
+    this.addCount = this.addCount.bind(this);
+  }
+
+  render() {
+    return (
+      <div>
+        <span>count is {this.state.count}</span>
+        <ActionButton text="-" handleClick={this.subtractCount}/>
+        <ActionButton text="+" handleClick={this.addCount}/>
+      </div>
+    )
+  }
+}

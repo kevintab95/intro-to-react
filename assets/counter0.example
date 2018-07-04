@@ -1,0 +1,11 @@
+class Counter extends React.Component {
+  render() {
+    return (
+      <div>
+        <span>count is {this.state.count}</span>
+        <ActionButton text="-" handleClick={this.subtractCount}/>
+        <ActionButton text="+" handleClick={this.addCount}/>
+      </div>
+    )
+  }
+}
