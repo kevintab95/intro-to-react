@@ -34,6 +34,10 @@ module.exports = {
       loaders: ["style-loader", "raw-loader"],
       include: __dirname
     }, {
+      test: /\.(woff|woff2|eot|ttf)$/,
+      loader: 'url-loader?limit=100000',
+      include: __dirname
+    }, {
       test: /\.svg$/,
       loader: "url-loader?limit=10000&mimetype=image/svg+xml",
       include: path.join(__dirname, "assets")
